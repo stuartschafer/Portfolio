@@ -1,0 +1,172 @@
+body {
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+	margin-bottom: 60px;
+}
+
+#blankspaceattop { 
+	background-color: #ffffff;
+	border-bottom: 5px solid #cccccc;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	background-color: lightskyblue;
+}
+
+h1 {
+	margin: 0px;
+	margin-left: 20px;
+	padding: 15px;
+	background-color: lightskyblue;
+	color: #ffffff;
+}
+
+h1:hover { 
+	margin: 0px;
+	margin-left: 20px;
+	padding: 15px;
+	background-color: #ffffff;
+	color: lightskyblue;
+}
+
+h3 {
+	border-bottom: solid #dddddd;
+	color: mediumslateblue;
+	padding-bottom: 10px;
+	position: relative;
+}
+
+#Inside_Section, #Connect_With_Me {
+	background-color: #ffffff;
+	border-bottom: 3px solid #cccccc;
+	padding: 20px;
+}
+
+#MyPic {
+	float: left;
+	background: url("../images/profilepic5.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 225px;
+	height: 150px; 
+	margin-right: 10px;
+}
+
+#MyPic:hover { 
+	float: left;
+	background: url("../images/profilepic6.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 225px;
+	height: 150px;
+}
+
+p { 
+	margin-top: 10px;
+}
+
+#githubicon {
+	background: url("../images/githubicon.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-decoration: none;
+	width: 60px;
+	height: 60px;
+}
+
+#githubicon:hover { 
+	background: url("../images/githubicon2.png");
+	background-size: contain;
+	width: 60px;
+	height: 60px;
+}
+
+#linkedinicon {
+	background: url("../images/linkedinicon.png");
+	background-size: contain;
+	margin: 10px;
+	width: 60px;
+	height: 60px;
+}
+
+#linkedinicon:hover { 
+	background: url("../images/linkedinicon2.png");
+	background-size: contain;
+	margin: 10px;
+	width: 60px;
+	height: 60px;
+}
+
+#stackoverflowicon {
+	background: url("../images/stackoverflowicon.png");
+	background-size: contain;
+	width: 60px;
+	height: 60px;
+}
+
+#stackoverflowicon:hover {
+	background: url("../images/stackoverflowicon2.png");
+	background-size: contain;
+	width: 60px;
+	height: 60px;
+}
+
+footer {
+	text-align: center;
+	border-top: 5px solid lightskyblue;
+	background-color: #666666;
+	color: darkgrey;
+	padding: 20px;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 60px;
+}
+
+a, a:link {
+	color: navy; 
+	height: 69px;
+	text-decoration: none;
+}
+
+
+#kitty {
+	color: blue; 
+	text-decoration: underline;
+}
+
+#About_Me, #Contact_Me, #Portfolio_Section {
+	margin: 30px;
+}
+
+#Inside_Portfolio_Section {
+	background-color: #ffffff;
+	border-bottom: 3px solid #cccccc;
+	padding: 20px;
+	height: 950px;
+}
+
+#Portfolio_images { 
+	width: 250px;
+	height: 180px;
+	float: left; 
+	margin: 17px;
+}
+
+ .Work { 
+	position: relative;
+	float: left;
+}
+
+.title {
+	position: absolute;
+	background-color: lightskyblue;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	padding: 15px 0px 15px 0px;
+	margin-left: 17px;
+	width: 250px; 
+	margin-top: 120px;
+} 
+

@@ -1,0 +1,73 @@
+header:hover {
+	color: #4aaaa5;
+	background-color: #ffffff;
+	border: 2px solid #4aaaa5;
+	padding: 18px;
+}
+
+a:visited {
+	color: #777777;
+}
+
+a:link {
+	color: #777777;
+}
+
+a:hover {
+	color: turquoise;
+}
+
+a:active {
+	color: turquoise;
+}
+
+#MyPic:hover {
+	float: left;
+	padding-right: 10px;
+	background: url("../images/profilepic2.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 225px;
+	height: 150px;
+}
+
+#githubicon:hover {
+	background: url("../images/githubicon2.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 60px;
+	height: 60px;
+}
+
+#linkedinicon:hover {
+	background: url("../images/linkedinicon2.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 60px;
+	height: 60px;
+}
+
+#stackoverflowicon:hover {
+	background: url("../images/stackoverflowicon2.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 60px;
+	height: 60px;
+}
+
+#submitform:hover {
+	background-color: #ffffff;
+	border: 2px solid #4aaaa5;
+	color: #4aaaa5;
+	padding: 8px 28px 8px 28px;
+}
+
+.title:hover {
+	background-color: #ffffff;
+	color: #4aaaa5;
+}
+
+
+
+
+

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<!-- This is the title that shows at the top of the webpage -->
+		<title>Basic Portfolio</title>
+		
+		<!-- This is the Twitter Bootstrap reference -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- This is the Bootswatch reference for the Cerulean theme -->
+		<link rel="stylesheet" href="https://bootswatch.com/cerulean/bootstrap.css">
+
+		<!-- This link is so the text will respond correctly on browsers -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- This references the CSS stylesheet -->
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+		<!-- This referneces the CSS stylesheet for the items that have hover to them -->
+		<link rel="stylesheet" type="text/css" href="assets/css/hover.css">
+
+	</head>
+<body>
+
+	<!-- This is for white blank part at the top of the page (no wallpaper) -->
+   <section id="blankspaceattop">
+	    <div class="row">
+			<div class="col-sm-3">
+		  		<h1>Stuart Schafer</h1>
+		  	</div>
+
+		  	<div class="col-sm-3"></div>
+		  	<div class="col-sm-3"></div>
+
+			<!-- This is for the navigation tabs at the top right of the page -->
+			<ul class="nav nav-tabs">
+			  <li role="presentation"><a href="index.html">About</a></li>
+			  <li role="presentation"><a href="portfolio.html">Portfolio</a></li>
+			  <li role="presentation" class="active"><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</section>
+
+
+	<!-- This is for the Contact Me (form) in the main body section -->
+	<section id="Contact_Me">
+		<div class="row">
+			<div class="col-sm-1"></div>
+
+			<div class="col-sm-6">
+				<section id="Inside_Section">
+					<h3>Contact Me</h3>
+					
+					<form>
+						<div class="form-group">
+							<label>Name</label>
+					    	<input class="form-control" id="Name_Input" placeholder="John Smith">
+					  	</div>
+
+
+					  	<div class="form-group">
+							<label>Email</label>
+					    	<input type="email" class="form-control" id="Email_Input" placeholder="example@gmail.com">
+					  	</div>
+						
+						<textarea class="form-control" rows="8"></textarea>
+						
+						<br>
+
+						<button type="submit" class="btn-primary"><a href="mailto:stuart_schafer@hotmail.com">Submit</a></button>
+					
+					</form>
+					
+				</section>
+			</div>
+			
+			<div class="col-sm-1"></div>
+
+
+			<!-- This is for the Connect With Me section on the right side of the main body -->
+			<div class="col-sm-3 col-md-offset-1">
+				<section id="Connect_With_Me">
+					<h3>Connect With Me</h3>
+					
+					<a href="https://github.com/stuartschafer">
+						<img id="githubicon">
+					</a>
+
+					<a href="https://www.linkedin.com/in/stuart-schafer/">
+						<img id="linkedinicon">
+					</a>
+
+					<a href="http://stackoverflow.com/users/7389235/stuart-schafer">
+						<img id="stackoverflowicon">
+					</a>
+				</section>
+			</div>
+
+
+	<!-- The footer part at the bottom -->
+	<div class="row">
+		<div class="col-sm-12">
+			<footer class="footer">@ Copyright 2017 Stuart Schafer</footer>
+		</div>
+	</div>
+
+</body>
+
+</html>
