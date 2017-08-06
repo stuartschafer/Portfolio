@@ -25,24 +25,24 @@ a:active {
 	background: url("../images/githubicon2.png");
 	background-size: contain;
 	background-repeat: no-repeat;
-	width: 60px;
-	height: 60px;
+	width: 30px;
+	height: 30px;
 }
 
 #linkedinicon:hover {
 	background: url("../images/linkedinicon2.png");
 	background-size: contain;
 	background-repeat: no-repeat;
-	width: 60px;
-	height: 60px;
+	width: 30px;
+	height: 30px;
 }
 
 #stackoverflowicon:hover {
 	background: url("../images/stackoverflowicon2.png");
 	background-size: contain;
 	background-repeat: no-repeat;
-	width: 60px;
-	height: 60px;
+	width: 30px;
+	height: 30px;
 }
 
 #submitform:hover {
