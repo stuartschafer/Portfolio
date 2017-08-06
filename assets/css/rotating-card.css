@@ -56,13 +56,13 @@ body {
 	position: absolute;
 	top: 0;
 	left: -25px;
-	background-color: aqua;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
 }
 
 /* front pane, placed above back */
 .front {
-	z-index: 2;
+    z-index: 2;
+    background-color: #00BFFF;
 }
 
 /* back, initially hidden pane */
@@ -72,7 +72,7 @@ body {
      -o-transform: rotateY( 180deg );
         transform: rotateY( 180deg );
         z-index: 3;
-    background-color: yellow;
+    background-color: #006485;
 }
 
 .back .btn-simple{
@@ -91,7 +91,7 @@ body {
 .card-container, .front, .back {
     float: left;
 	width: 250px;
-	height: 370px;
+	height: 380px;
     border-radius: 4px;
     margin-left: 25px;
 }
@@ -134,6 +134,10 @@ body {
     margin: 10px 0 0;
     text-align: center;
     text-transform: capitalize;
+}
+.name {
+     color: white; 
+     border-bottom: 1px solid #EEEEEE;
 }
 .card h5{
     margin: 5px 0;

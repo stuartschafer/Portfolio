@@ -4,42 +4,45 @@ body {
 	margin-bottom: 60px;
 }
 
-#blankspaceattop { 
-	background-color: #ffffff;
-	border-bottom: 5px solid #cccccc;
+#blankspaceattop-port {
+	margin-top: -60px;
 }
+
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
 	background-color: lightskyblue;
 }
 
 h1 {
+	text-align: center;
 	margin: 0px;
-	margin-left: 20px;
-	padding: 15px;
+	padding: 5px;
 	background-color: lightskyblue;
 	color: #ffffff;
 }
 
-h1:hover { 
+h1:hover {
+	text-align: center;
 	margin: 0px;
-	margin-left: 20px;
-	padding: 15px;
+	padding: 5px;
 	background-color: #ffffff;
 	color: lightskyblue;
 }
 
-h3 {
+h2 {
 	border-bottom: solid #dddddd;
-	color: mediumslateblue;
+	color: white !important;
 	padding-bottom: 10px;
 	position: relative;
+    text-shadow: 0 0 5px #006485, 0 0 10px #006485, 0 0 15px #006485, 0 0 20px #006485, 0 0 35px #006485, 0 0 40px #006485, 0 0 50px #006485, 0 0 75px #006485 !important; 
+    
 }
 
 #Inside_Section, #Connect_With_Me {
-	background-color: #ffffff;
+	background-color: #31C9FC;
 	border-bottom: 3px solid #cccccc;
 	padding: 20px;
+	margin-bottom: 30px;
 }
 
 #MyPic {
@@ -47,8 +50,8 @@ h3 {
 	background: url("../images/profilepic5.jpg");
 	background-size: contain;
 	background-repeat: no-repeat;
-	width: 225px;
-	height: 150px; 
+	width: 400px;
+	height: 267px;
 	margin-right: 10px;
 }
 
@@ -57,12 +60,14 @@ h3 {
 	background: url("../images/profilepic6.jpg");
 	background-size: contain;
 	background-repeat: no-repeat;
-	width: 225px;
-	height: 150px;
+	width: 400px;
+	height: 267px;
 }
 
 p { 
 	margin-top: 10px;
+	color: #0084b0;
+	font-size: 16px;
 }
 
 #githubicon {
@@ -140,10 +145,11 @@ a, a:link {
 }
 
 #Inside_Portfolio_Section {
-	background-color: #ffffff;
+	background-color: lightskyblue;
 	border-bottom: 3px solid #cccccc;
 	padding: 20px;
-	height: 950px;
+	height: 1750px;
+	margin-bottom: 30px;
 }
 
 #Portfolio_images {
@@ -176,4 +182,30 @@ a, a:link {
 #smaller {
 	font-size: 12px;
 	line-height: 1.75;
+}
+
+.techs {
+	color: white;
+}
+
+.text-center {
+	color: #006485;
+	font-size: 14px;
+}
+
+li {
+	color: white !important;
+}
+
+#inactivelink {
+	 color: #555555; 
+	background-color: gray;
+}
+
+#inactivelink:hover {
+	/* color: white; */
+	background-color: lightskyblue;
+}
+.nav-tabs {
+	 /* height: 30px;  */
 }

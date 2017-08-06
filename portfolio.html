@@ -4,6 +4,9 @@
 
 		<!-- This is the title that shows at the top of the webpage -->
 		<title>Basic Portfolio</title>
+
+		<link href='assets/css/bootstrap.css' rel='stylesheet' />
+    	<link href='assets/css/rotating-card.css' rel='stylesheet' />
 		
 		<!-- This is the Twitter Bootstrap reference -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -15,19 +18,17 @@
 		<!-- This link is so the text will respond correctly on browsers -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
+		
+
 		<!-- This references the CSS stylesheet -->
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 		<!-- This referneces the CSS stylesheet for the items that have hover to them -->
 		<link rel="stylesheet" type="text/css" href="assets/css/hover.css">
 
-		<link href='assets/css/bootstrap.css' rel='stylesheet' />
-    <link href='assets/css/rotating-card.css' rel='stylesheet' />
+		
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-
 
 	</head>
 <body>
@@ -44,9 +45,9 @@
 
 			<!-- This is for the navigation tabs at the top right of the page -->
 			<ul class="nav nav-tabs">
-			  <li role="presentation"><a href="index.html">About</a></li>
+			  <li role="presentation"><a  id="inactivelink"href="index.html">About</a></li>
 			  <li role="presentation" class="active"><a href="portfolio.html">Portfolio</a></li>
-			  <li role="presentation"><a href="contact.html">Contact</a></li>
+			  <li role="presentation"><a  id="inactivelink"href="contact.html">Contact</a></li>
 			</ul>
 		</div>
 	</section>
@@ -56,7 +57,11 @@
 	<div class="row">
 		<div class="col-sm-9">
 			<section id="Inside_Portfolio_Section">
-				<h3>Portfolio</h3>
+				<h2>Portfolio</h2>
+
+
+
+
 
 <!-- PLANET VENN CARD -->
 					<div class="card-container">
@@ -66,7 +71,7 @@
 									<div class="main">
 										<h3 class="name">PLANET VENN</h3>
 										<p class="profession">Full Stack App</p>
-										<p class="text-center">A fun game that tests your logic and memory.</p>
+										<p class="text-center">A fun and challenging game that tests your logic and memory. Watch the pieces get sucked into the dark abyss of the black hole.</p>
 										<img id="Portfolio_images" src="assets/covers/planetvenn.gif">
 									</div>
 								</div>
@@ -75,23 +80,23 @@
 								<div class="header">
 									<h5 class="motto">Utilized Technologies:</h5>
 									<div class="row">
-										<div class="col-sm-6">
-											<li>React</li>
-											<li>Javascript</li>
-											<li>Node JS</li>
-											<li>Passport</li>
-											<li>Heroku</li>
-											<li>AJAX</li>
-											<li>Material UI</li>
+										<div class="col-sm-6 techs">
+											<a href="https://facebook.github.io/react/" target="_blank"><li>React</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><li>Javascript</li></a>
+											<a href="https://nodejs.org/en/" target="_blank"><li>Node JS</li></a>
+											<a href="http://passportjs.org/" target="_blank"><li>Passport</li></a>
+											<a href="https://www.heroku.com/" target="_blank"><li>Heroku</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/AJAX" target="_blank"><li>AJAX</li></a>
+											<a href="http://www.material-ui.com/#/" target="_blank"><li>Material UI</li></a>
 										</div>
-										<div class="col-sm-6">
-											<li>HTML5</li>
-											<li>MongoDB</li>
-											<li>Express</li>
-											<li>Axios</li>
-											<li>jQuery *</li>
-											<li>CSS</li>
-											<li>API calls</li>
+										<div class="col-sm-6 techs">
+											<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank"><li>HTML5</li></a>
+											<a href="https://docs.mongodb.com/manual/" target="_blank"><li>MongoDB</li></a>
+											<a href="https://expressjs.com/" target="_blank"><li>Express</li></a>
+											<a href="https://www.npmjs.com/package/axios" target="_blank"><li>Axios</li></a>
+											<a href="https://jquery.com/" target="_blank"><li>jQuery *</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><li>CSS</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/Web/API" target="_blank"><li>APIs</li></a>
 										</div>
 									</div>
 									<h5 class="motto">* jQuery would normally not be used with React, but for the time constraints on this project, we decided to have a fully functional working app</h5>
@@ -121,21 +126,21 @@
 								<div class="header">
 									<h5 class="motto">Utilized Technologies:</h5>
 									<div class="row">
-										<div class="col-sm-6">
-											<li>HTML5</li>
-											<li>MySQL</li>
-											<li>Express</li>
-											<li>jQuery</li>
-											<li id="smaller">Handlebars</li>
-											<li>Bootstrap</li>
+										<div class="col-sm-6 techs">
+											<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank"><li>HTML5</li></a>
+											<a href="https://www.mysql.com/" target="_blank"><li>MySQL</li></a>
+											<a href="https://expressjs.com/" target="_blank"><li>Express</li></a>
+											<a href="https://jquery.com/" target="_blank"><li>jQuery</li></a>
+											<a href="http://handlebarsjs.com/" target="_blank"><li id="smaller">Handlebars</li></a>
+											<a href="http://getbootstrap.com/" target="_blank"><li>Bootstrap</li></a>
 										</div>
-										<div class="col-sm-6">
-											<li>Javascript</li>
-											<li>Sequelize</li>
-											<li>Node JS</li>
-											<li>API calls</li>
-											<li>Heroku</li>
-											<li>CSS</li>
+										<div class="col-sm-6 techs">
+											<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><li>Javascript</li></a>
+											<a href="http://docs.sequelizejs.com/" target="_blank"><li>Sequelize</li></a>
+											<a href="https://nodejs.org/en/" target="_blank"><li>Node JS</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/Web/API" target="_blank"><li>APIs</li></a>
+											<a href="https://www.heroku.com/" target="_blank"><li>Heroku</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><li>CSS</li></a>
 										</div>
 									</div>
 									<h5 class="motto">This allows you to enter any goal/achievement/dream and a time-frame for it. As you progress, you can mark them off or delete them.  All info is saved into a SQL database.</h5>
@@ -165,21 +170,21 @@
 								<div class="header">
 									<h5 class="motto">Utilized Technologies:</h5>
 									<div class="row">
-										<div class="col-sm-6">
-											<li>HTML5</li>
-											<li>Javascript</li>
-											<li>Node JS</li>
-											<li id="smaller">Handlebars</li>
-											<li>AJAX</li>
-											<li>Bootstrap</li>
+										<div class="col-sm-6 techs">
+											<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank"><li>HTML5</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><li>Javascript</li></a>
+											<a href="https://nodejs.org/en/" target="_blank"><li>Node JS</li></a>
+											<a href="http://handlebarsjs.com/" target="_blank"><li id="smaller">Handlebars</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/AJAX" target="_blank"><li>AJAX</li></a>
+											<a href="http://getbootstrap.com/" target="_blank"><li>Bootstrap</li></a>
 										</div>
-										<div class="col-sm-6">
-											<li>Mongo DB</li>
-											<li>jQuery</li>
-											<li>Express</li>
-											<li>API calls</li>
-											<li>Heroku</li>
-											<li>CSS</li>
+										<div class="col-sm-6 techs">
+											<a href="https://docs.mongodb.com/manual/" target="_blank"><li>MongoDB</li></a>
+											<a href="https://jquery.com/" target="_blank"><li>jQuery</li></a>
+											<a href="https://expressjs.com/" target="_blank"><li>Express</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/Web/API" target="_blank"><li>APIs</li></a>
+											<a href="https://www.heroku.com/" target="_blank"><li>Heroku</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><li>CSS</li></a>
 										</div>
 									</div>
 									<h5 class="motto">This will "scrape" (retrieve) news articles from the satire website "The Onion". Users can save artciles of their choosing, and can comment on them if they wish. All info is saved into a Mongo database.</h5>
@@ -209,19 +214,19 @@
 								<div class="header">
 									<h5 class="motto">Utilized Technologies:</h5>
 									<div class="row">
-										<div class="col-sm-6">
-											<li>HTML5</li>
-											<li>Javascript</li>
-											<li>Node JS</li>
-											<li>API calls</li>
-											<li>Materialize</li>
+										<div class="col-sm-6 techs">
+											<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank"><li>HTML5</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><li>Javascript</li></a>
+											<a href="https://nodejs.org/en/" target="_blank"><li>Node JS</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/Web/API" target="_blank"><li>APIs</li></a>
+											<a href="http://materializecss.com/about.html" target="_blank"><li>Materialize</li></a>
 										</div>
-										<div class="col-sm-6">
-											<li>MySQL</li>
-											<li>jQuery</li>
-											<li>Express</li>
-											<li>Heroku</li>
-											<li>CSS</li>
+										<div class="col-sm-6 techs">
+											<a href="https://www.mysql.com/" target="_blank"><li>MySQL</li></a>
+											<a href="https://jquery.com/" target="_blank"><li>jQuery</li></a>
+											<a href="https://expressjs.com/" target="_blank"><li>Express</li></a>
+											<a href="https://www.heroku.com/" target="_blank"><li>Heroku</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><li>CSS</li></a>
 										</div>
 									</div>
 									<h5 class="motto">Answer 10 thoughtful questions and see who's answers closest match your's. You are given an ID# so you can come back any time to see if anyopne else matched closer when more people have answered. All info is saved to a MySQL database.</h5>
@@ -251,23 +256,23 @@
 								<div class="header">
 									<h5 class="motto">Utilized Technologies:</h5>
 									<div class="row">
-										<div class="col-sm-6">
-											<li>HTML5</li>
-											<li>MySQL</li>
-											<li>Node JS</li>
-											<li>Passport</li>
-											<li>AJAX</li>
-											<li>Heroku</li>
-											<li>Bootstrap</li>
+										<div class="col-sm-6 techs">
+											<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank"><li>HTML5</li></a>
+											<a href="https://www.mysql.com/" target="_blank"><li>MySQL</li></a>
+											<a href="https://nodejs.org/en/" target="_blank"><li>Node JS</li></a>
+											<a href="http://passportjs.org/" target="_blank"><li>Passport</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/AJAX" target="_blank"><li>AJAX</li></a>
+											<a href="https://www.heroku.com/" target="_blank"><li>Heroku</li></a>
+											<a href="http://getbootstrap.com/" target="_blank"><li>Bootstrap</li></a>
 										</div>
-										<div class="col-sm-6">
-											<li>Javascript</li>
-											<li>Sequelize</li>
-											<li>Express</li>
-											<li>API calls</li>
-											<li>Shine JS</li>
-											<li id="smaller">Data Tables</li>
-											<li>CSS</li>
+										<div class="col-sm-6 techs">
+											<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><li>Javascript</li></a>
+											<a href="http://docs.sequelizejs.com/" target="_blank"><li>Sequelize</li></a>
+											<a href="https://expressjs.com/" target="_blank"><li>Express</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/Web/API" target="_blank"><li>APIs</li></a>
+											<a href="http://bigspaceship.github.io/shine.js/" target="_blank"><li>Shine JS</li></a>
+											<a href="https://datatables.net/" target="_blank"><li id="smaller">Data Tables</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><li>CSS</li></a>
 										</div>
 									</div>
 									<h5 class="motto">Ever had things stolen or destroyed due to fire or mother nature? Always know what you have for insurance purposes and for moving.  Everything is stored into a MySQL database.</h5>
@@ -297,14 +302,14 @@
 								<div class="header">
 									<h5 class="motto">Utilized Technologies:</h5>
 									<div class="row">
-										<div class="col-sm-6">
-											<li>HTML5</li>	
-											<li>jQuery</li>
-											<li>CSS</li>
+										<div class="col-sm-6 techs">
+											<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank"><li>HTML5</li></a>	
+											<a href="https://jquery.com/" target="_blank"><li>jQuery</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><li>CSS</li></a>
 										</div>
-										<div class="col-sm-6">
-											<li>Javascript</li>
-											<li>Bootstrap</li>
+										<div class="col-sm-6 techs">
+											<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><li>Javascript</li></a>
+											<a href="http://getbootstrap.com/" target="_blank"><li>Bootstrap</li></a>
 										</div>
 									</div>
 									<h5 class="motto">How good is your memory?  How about simple math?  Find out by playing through all 8 levels.  Each level ramps up the difficulty, and levels 5-8 will really test your skills and are only reccomended for advanced players.  The more you play, the better you will get.  Keep trying, you can do it!</h5>
@@ -334,14 +339,14 @@
 								<div class="header">
 									<h5 class="motto">Utilized Technologies:</h5>
 									<div class="row">
-										<div class="col-sm-6">
-											<li>HTML5</li>	
-											<li>jQuery</li>
-											<li>Bootstrap</li>
+										<div class="col-sm-6 techs">
+											<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank"><li>HTML5</li></a>	
+											<a href="https://jquery.com/" target="_blank"><li>jQuery</li></a>
+											<a href="http://getbootstrap.com/" target="_blank"><li>Bootstrap</li></a>
 										</div>
-										<div class="col-sm-6">
-											<li>Javascript</li>
-											<li>CSS</li>
+										<div class="col-sm-6 techs">
+											<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><li>Javascript</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><li>CSS</li></a>
 										</div>
 									</div>
 									<h5 class="motto">Great old-school fun.  Play as either Raiden, Kitana, Scorpion, or Sub Zero and fight your way through all enemies.  You can win with each character as long as you choose the right characters to fight against.  You'll love the great sounds, music, and animations.  The hilarious videos will keep you laughing.</h5>
@@ -371,14 +376,14 @@
 								<div class="header">
 									<h5 class="motto">Utilized Technologies:</h5>
 									<div class="row">
-										<div class="col-sm-6">
-											<li>Javascript</li>
-											<li>Node JS</li>
+										<div class="col-sm-6 techs">
+											<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><li>Javascript</li></a>
+											<a href="https://nodejs.org/en/" target="_blank"><li>Node JS</li></a>
 											<li>Prompt</li>	
 										</div>
-										<div class="col-sm-6">
-											<li>MySQL</li>
-											<li>Inquirer</li>
+										<div class="col-sm-6 techs">
+											<a href="https://www.mysql.com/" target="_blank"><li>MySQL</li></a>
+											<a href="https://github.com/SBoudrias/Inquirer.js/" target="_blank"><li>Inquirer</li></a>
 											<li>Easy-Table</li>
 										</div>
 									</div>
@@ -409,15 +414,15 @@
 								<div class="header">
 									<h5 class="motto">Utilized Technologies:</h5>
 									<div class="row">
-										<div class="col-sm-6">
-											<li>HTML5</li>
-											<li>jQuery</li>
-											<li>AJAX</li>
+										<div class="col-sm-6 techs">
+											<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank"><li>HTML5</li></a>
+											<a href="https://jquery.com/" target="_blank"><li>jQuery</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/AJAX" target="_blank"><li>AJAX</li></a>
 										</div>
-										<div class="col-sm-6">
-											<li>Javascript</li>
-											<li>API calls</li>
-											<li>Bootstrap</li>
+										<div class="col-sm-6 techs">
+											<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><li>Javascript</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/Web/API" target="_blank"><li>APIs</li></a>
+											<a href="http://getbootstrap.com/" target="_blank"><li>Bootstrap</li></a>
 										</div>
 									</div>
 									<h5 class="motto">This app allows you to select several animated gif images from the GIPHY website from a starter list or enter your own search query.  Start and stop their animation by clicking on them.</h5>
@@ -447,13 +452,15 @@
 								<div class="header">
 									<h5 class="motto">Utilized Technologies:</h5>
 									<div class="row">
-										<div class="col-sm-6">
-											<li>Node JS</li>
-											<li>Inquirer</li>
+										<div class="col-sm-6 techs">
+											<a href="https://nodejs.org/en/" target="_blank"><li>Node JS</li></a>
+											<a href="https://github.com/SBoudrias/Inquirer.js/" target="_blank"><li>Inquirer</li></a>
 										</div>
-										<div class="col-sm-6">
-											<li>Javascript</li>
-											<li id="smaller">File System</li>
+										<div class="col-sm-6 techs">
+											<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><li>Javascript</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/Web/API/FileSystem" target="_blank"><li id="smaller">File System</li></a>
+
+											
 										</div>
 									</div>
 									<h5 class="motto">Create new flashcards or access previously saved flashcards.  When you create a new one, you are prompted to remove a word or several words.  Test out your flashcards and it will total your correct/incorrect responses.  All flashcards are saved to a document file.</h5>
@@ -483,12 +490,12 @@
 								<div class="header">
 									<h5 class="motto">Utilized Technologies:</h5>
 									<div class="row">
-										<div class="col-sm-6">
-											<li>HTML5</li>	
-											<li>CSS</li>
+										<div class="col-sm-6 techs">
+											<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank"><li>HTML5</li></a>	
+											<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><li>CSS</li></a>
 										</div>
-										<div class="col-sm-6">
-											<li>Javascript</li>
+										<div class="col-sm-6 techs">
+											<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><li>Javascript</li></a>
 										</div>
 									</div>
 									<h5 class="motto">Going from old-school to current day Marvel characters, see how many of the 41 characters you can remember.  This will keep track of your score and has several sounds and music choices to make playing this all the more fun.</h5>
@@ -518,14 +525,14 @@
 								<div class="header">
 									<h5 class="motto">Utilized Technologies:</h5>
 									<div class="row">
-										<div class="col-sm-6">
-											<li>HTML5</li>	
-											<li>jQuery</li>
-											<li>Bootstrap</li>
+										<div class="col-sm-6 techs">
+											<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank"><li>HTML5</li></a>	
+											<a href="https://jquery.com/" target="_blank"><li>jQuery</li></a>
+											<a href="http://getbootstrap.com/" target="_blank"><li>Bootstrap</li></a>
 										</div>
-										<div class="col-sm-6">
-											<li>Javascript</li>
-											<li>CSS</li>
+										<div class="col-sm-6 techs">
+											<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><li>Javascript</li></a>
+											<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><li>CSS</li></a>
 										</div>
 									</div>
 									<h5 class="motto">Listen to relaxing music as you test your knowledge.  Choose from 3 different categories and for an added challenge play with points.  The faster you guess, the more points you can win, or lose.  After all 10 questions have been answered, your score and point total is calculated.</h5>

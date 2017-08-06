@@ -6,11 +6,11 @@ header:hover {
 }
 
 a:visited {
-	color: #777777;
+	color: #006485;
 }
 
 a:link {
-	color: #777777;
+	color: #006485;
 }
 
 a:hover {
@@ -19,16 +19,6 @@ a:hover {
 
 a:active {
 	color: turquoise;
-}
-
-#MyPic:hover {
-	float: left;
-	padding-right: 10px;
-	background: url("../images/profilepic2.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 225px;
-	height: 150px;
 }
 
 #githubicon:hover {
