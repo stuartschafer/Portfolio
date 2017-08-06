@@ -154,6 +154,7 @@ a, a:link {
 	border-bottom: 3px solid #cccccc;
 	padding: 20px;
 	height: 1325px;
+	width: 100%;
 	margin-bottom: 20px;
 }
 
@@ -203,7 +204,7 @@ li {
 }
 
 #inactivelink {
-	color: #555555; 
+	color: black; 
 	background-color: gray;
 	height: 53px;
 	padding-top: 15px;
@@ -213,4 +214,32 @@ li {
 	/* color: white; */
 	background-color: lightskyblue;
 	height: 53px;
+}
+
+@media screen and (max-width: 1279px) {
+	#Inside_Portfolio_Section {
+		height: 1725px;
+		 width: 1120px;  
+	}
+	.card-container, .front, .back {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+@media screen and (max-width: 1179px) {
+	#Inside_Portfolio_Section {
+		/* height: 2525px; */
+		 width: 850px; 
+	}
+
+}
+
+@media screen and (max-width: 909px) {
+	#Inside_Portfolio_Section {
+		height: 2525px;
+		width: 580px; 
+		
+	}
+
 }
