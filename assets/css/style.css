@@ -125,7 +125,7 @@ footer {
 
 a, a:link {
 	color: navy; 
-	height: 69px;
+	/* height: 69px; */
 	text-decoration: none;
 }
 
@@ -146,11 +146,14 @@ a, a:link {
 	height: 950px;
 }
 
-#Portfolio_images { 
+#Portfolio_images {
+	position: absolute;
 	width: 250px;
 	height: 180px;
 	float: left; 
-	margin: 17px;
+	margin-left: -20px;
+	/* margin-top: 30px; */
+	bottom: 0;
 }
 
  .Work { 
@@ -170,3 +173,7 @@ a, a:link {
 	margin-top: 120px;
 } 
 
+#smaller {
+	font-size: 12px;
+	line-height: 1.75;
+}

@@ -7,8 +7,8 @@
 		
 		<!-- This is the Twitter Bootstrap reference -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
+		
+		
 		<!-- This is the Bootswatch reference for the Cerulean theme -->
 		<link rel="stylesheet" href="https://bootswatch.com/cerulean/bootstrap.css">
 
@@ -20,6 +20,14 @@
 
 		<!-- This referneces the CSS stylesheet for the items that have hover to them -->
 		<link rel="stylesheet" type="text/css" href="assets/css/hover.css">
+
+		<link href='assets/css/bootstrap.css' rel='stylesheet' />
+    <link href='assets/css/rotating-card.css' rel='stylesheet' />
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
 
 	</head>
 <body>
@@ -43,22 +51,376 @@
 		</div>
 	</section>
 
-	
-
-
-
-
-
-
-
 <!-- This is for the Portfolio in the main body section -->
 <section id="Portfolio_Section">
 	<div class="row">
 		<div class="col-sm-9">
 			<section id="Inside_Portfolio_Section">
 				<h3>Portfolio</h3>
+
+<!-- PLANET VENN CARD -->
+					<div class="card-container">
+						<div class="card">
+							<div class="front">
+								<div class="content">
+									<div class="main">
+										<h3 class="name">PLANET VENN</h3>
+										<p class="profession">Full Stack App</p>
+										<p class="text-center">A fun game that tests your logic and memory.</p>
+										<img id="Portfolio_images" src="assets/covers/planetvenn.gif">
+									</div>
+								</div>
+							</div>
+							<div class="back">
+								<div class="header">
+									<h5 class="motto">Utilized Technologies:</h5>
+									<div class="row">
+										<div class="col-sm-6">
+											<li>React</li>
+											<li>Javascript</li>
+											<li>Node JS</li>
+											<li>Passport</li>
+											<li>Heroku</li>
+											<li>AJAX</li>
+											<li>Material UI</li>
+										</div>
+										<div class="col-sm-6">
+											<li>HTML5</li>
+											<li>MongoDB</li>
+											<li>Express</li>
+											<li>Axios</li>
+											<li>jQuery *</li>
+											<li>CSS</li>
+											<li>API calls</li>
+										</div>
+									</div>
+									<h5 class="motto">* jQuery would normally not be used with React, but for the time constraints on this project, we decided to have a fully functional working app</h5>
+									<div class="text-center">
+										<button class="btn btn-success" onclick="window.open('https://morning-hamlet-93020.herokuapp.com/')" role="button">DEMO</button>
+										<button class="btn btn-warning" onclick="window.open('https://github.com/stuartschafer/Planet-Venn')" role="button">Source code</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+<!-- BURRITO BUCKET CARD -->
+					<div class="card-container">
+						<div class="card">
+							<div class="front">
+								<div class="content">
+									<div class="main">
+										<h3 class="name">BURRITO BUCKET</h3>
+										<p class="profession">Full Stack App</p>
+										<p class="text-center">Challenge yourself to do bigger and better things. This app will kepp track of your goals, dreams, and bucket list items.</p>
+										<img id="Portfolio_images" src="assets/covers/burritobucket.gif">
+									</div>
+								</div>
+							</div>
+							<div class="back">
+								<div class="header">
+									<h5 class="motto">Utilized Technologies:</h5>
+									<div class="row">
+										<div class="col-sm-6">
+											<li>HTML5</li>
+											<li>MySQL</li>
+											<li>Express</li>
+											<li>jQuery</li>
+											<li id="smaller">Handlebars</li>
+											<li>Bootstrap</li>
+										</div>
+										<div class="col-sm-6">
+											<li>Javascript</li>
+											<li>Sequelize</li>
+											<li>Node JS</li>
+											<li>API calls</li>
+											<li>Heroku</li>
+											<li>CSS</li>
+										</div>
+									</div>
+									<h5 class="motto">This allows you to enter any goal/achievement/dream and a time-frame for it. As you progress, you can mark them off or delete them.  All info is saved into a SQL database.</h5>
+									<div class="text-center">
+										<button class="btn btn-success" onclick="window.open('https://burrito-bucket-with-sequelize.herokuapp.com/')" role="button">DEMO</button>
+										<button class="btn btn-warning" onclick="window.open('https://github.com/stuartschafer/Burrito-Bucket-with-Sequelize')" role="button">Source code</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+<!-- NEWS SCRAPER CARD -->
+					<div class="card-container">
+						<div class="card">
+							<div class="front">
+								<div class="content">
+									<div class="main">
+										<h3 class="name">NEWS SCRAPER</h3>
+										<p class="profession">Full Stack App</p>
+										<p class="text-center">Get your daily humor from "The Onion". Save and make comments on them if you choose.</p>
+										<img id="Portfolio_images" src="assets/covers/newsscraper.gif">
+									</div>
+								</div>
+							</div>
+							<div class="back">
+								<div class="header">
+									<h5 class="motto">Utilized Technologies:</h5>
+									<div class="row">
+										<div class="col-sm-6">
+											<li>HTML5</li>
+											<li>Javascript</li>
+											<li>Node JS</li>
+											<li id="smaller">Handlebars</li>
+											<li>AJAX</li>
+											<li>Bootstrap</li>
+										</div>
+										<div class="col-sm-6">
+											<li>Mongo DB</li>
+											<li>jQuery</li>
+											<li>Express</li>
+											<li>API calls</li>
+											<li>Heroku</li>
+											<li>CSS</li>
+										</div>
+									</div>
+									<h5 class="motto">This will "scrape" (retrieve) news articles from the satire website "The Onion". Users can save artciles of their choosing, and can comment on them if they wish. All info is saved into a Mongo database.</h5>
+									<div class="text-center">
+										<button class="btn btn-success" onclick="window.open('https://the-onion-news-scraper.herokuapp.com/')" role="button">DEMO</button>
+										<button class="btn btn-warning" onclick="window.open('https://github.com/stuartschafer/News-Scraper')" role="button">Source code</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>			
+
+<!-- FRIEND FINDER CARD -->
+					<div class="card-container">
+						<div class="card">
+							<div class="front">
+								<div class="content">
+									<div class="main">
+										<h3 class="name">FRIEND FINDER</h3>
+										<p class="profession">Full Stack App</p>
+										<p class="text-center">This app will match you with another friend who have answered questions similarly.</p>
+										<img id="Portfolio_images" src="assets/covers/friendfinder.gif">
+									</div>
+								</div>
+							</div>
+							<div class="back">
+								<div class="header">
+									<h5 class="motto">Utilized Technologies:</h5>
+									<div class="row">
+										<div class="col-sm-6">
+											<li>HTML5</li>
+											<li>Javascript</li>
+											<li>Node JS</li>
+											<li>API calls</li>
+											<li>Materialize</li>
+										</div>
+										<div class="col-sm-6">
+											<li>MySQL</li>
+											<li>jQuery</li>
+											<li>Express</li>
+											<li>Heroku</li>
+											<li>CSS</li>
+										</div>
+									</div>
+									<h5 class="motto">Answer 10 thoughtful questions and see who's answers closest match your's. You are given an ID# so you can come back any time to see if anyopne else matched closer when more people have answered. All info is saved to a MySQL database.</h5>
+									<div class="text-center">
+										<button class="btn btn-success" onclick="window.open('https://friend-finder-with-mysql.herokuapp.com/')" role="button">DEMO</button>
+										<button class="btn btn-warning" onclick="window.open('https://github.com/stuartschafer/Friend-Finder-with-MySQL')" role="button">Source code</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+<!-- SAFE KEEPER CARD -->
+					<div class="card-container">
+						<div class="card">
+							<div class="front">
+								<div class="content">
+									<div class="main">
+										<h3 class="name">SAFE KEEPER</h3>
+										<p class="profession">Full Stack App</p>
+										<p class="text-center">Keep track of all of your valuables. Know what you have at all times. Add, update, and delete inforamtion as needed.</p>
+										<img id="Portfolio_images" src="assets/covers/safekeeper.png">
+									</div>
+								</div>
+							</div>
+							<div class="back">
+								<div class="header">
+									<h5 class="motto">Utilized Technologies:</h5>
+									<div class="row">
+										<div class="col-sm-6">
+											<li>HTML5</li>
+											<li>MySQL</li>
+											<li>Node JS</li>
+											<li>Passport</li>
+											<li>AJAX</li>
+											<li>Heroku</li>
+											<li>Bootstrap</li>
+										</div>
+										<div class="col-sm-6">
+											<li>Javascript</li>
+											<li>Sequelize</li>
+											<li>Express</li>
+											<li>API calls</li>
+											<li>Shine JS</li>
+											<li id="smaller">Data Tables</li>
+											<li>CSS</li>
+										</div>
+									</div>
+									<h5 class="motto">Ever had things stolen or destroyed due to fire or mother nature? Always know what you have for insurance purposes and for moving.  Everything is stored into a MySQL database.</h5>
+									<div class="text-center">
+										<button class="btn btn-success" onclick="window.open('https://safe-stream-99507.herokuapp.com/')" role="button">DEMO</button>
+										<button class="btn btn-warning" onclick="window.open('https://github.com/stuartschafer/Safe-Keeper')" role="button">Source code</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+<!-- CRYSTAL COLLECTOR CARD -->
+					<div class="card-container">
+						<div class="card">
+							<div class="front">
+								<div class="content">
+									<div class="main">
+										<h3 class="name">CRYSTAL COLLECTOR</h3>
+										<p class="profession">Front-End App</p>
+										<p class="text-center">Challenge yourself in this addictive and difficult memory game.</p>
+										<img id="Portfolio_images" src="assets/covers/crystal.png">
+									</div>
+								</div>
+							</div>
+							<div class="back">
+								<div class="header">
+									<h5 class="motto">Utilized Technologies:</h5>
+									<div class="row">
+										<div class="col-sm-6">
+											<li>HTML5</li>	
+											<li>jQuery</li>
+											<li>CSS</li>
+										</div>
+										<div class="col-sm-6">
+											<li>Javascript</li>
+											<li>Bootstrap</li>
+										</div>
+									</div>
+									<h5 class="motto">How good is your memory?  How about simple math?  Find out by playing through all 8 levels.  Each level ramps up the difficulty, and levels 5-8 will really test your skills and are only reccomended for advanced players.  The more you play, the better you will get.  Keep trying, you can do it!</h5>
+									<div class="text-center">
+										<button class="btn btn-success" onclick="window.open('https://stuartschafer.github.io/Crystal-Collector/')" role="button">DEMO</button>
+										<button class="btn btn-warning" onclick="window.open('https://github.com/stuartschafer/Crystal-Collector')" role="button">Source code</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+<!-- MARVEL HANGMAN CARD -->
+					<div class="card-container">
+						<div class="card">
+							<div class="front">
+								<div class="content">
+									<div class="main">
+										<h3 class="name">MARVEL HANGMAN</h3>
+										<p class="profession">Front-End App</p>
+										<p class="text-center">How well do you know Marvel's superheroes and villans? Test yourself in this classic hangman game!</p>
+										<img id="Portfolio_images" src="assets/covers/hangman.png">
+									</div>
+								</div>
+							</div>
+							<div class="back">
+								<div class="header">
+									<h5 class="motto">Utilized Technologies:</h5>
+									<div class="row">
+										<div class="col-sm-6">
+											<li>HTML5</li>	
+											<li>CSS</li>
+										</div>
+										<div class="col-sm-6">
+											<li>Javascript</li>
+										</div>
+									</div>
+									<h5 class="motto">Going from old-school to current day Marvel characters, see how many of the 41 characters you can remember.  This will keep track of your score and has several sounds and music choices to make playing this all the more fun.</h5>
+									<div class="text-center">
+										<button class="btn btn-success" onclick="window.open('https://stuartschafer.github.io/Hangman-Game/')" role="button">DEMO</button>
+										<button class="btn btn-warning" onclick="window.open('https://github.com/stuartschafer/Hangman-Game')" role="button">Source code</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+			</section>
+		</div> 
+
+		<!-- This is for the Connect With Me section on the right side of the main body -->
+		<div class="col-sm-3">
+			<section id="Connect_With_Me">
+				<h3>Connect With Me</h3>
 				
-			<div class="Work">	
+				<a href="https://github.com/stuartschafer">
+					<img id="githubicon">
+				</a>
+
+				<a href="https://www.linkedin.com/in/stuart-schafer/">
+					<img id="linkedinicon">
+				</a>
+
+				<a href="http://stackoverflow.com/users/7389235/stuart-schafer">
+					<img id="stackoverflowicon">
+				</a>
+			</section>
+		</div>
+
+	<!-- The footer part at the bottom -->
+	<div class="row">
+		<div class="col-sm-12">
+			<footer class="footer">@ Copyright 2017 Stuart Schafer</footer>
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+										<div class="col-sm-6">
+											<li>HTML5</li>	
+											<li>jQuery</li>
+											<li>CSS</li>
+										</div>
+										<div class="col-sm-6">
+											<li>Javascript</li>
+											<li>Bootstrap</li>
+										</div>
+
+
+											<li>AJAX</li>
+											<li>MySQL</li>
+											<li>Cheerio</li>
+											<li>jQuery</li>
+											<li>Javascript</li>
+											<li>Node JS</li>
+											<li>CSS</li>
+											<li>HTML5</li>
+											<li>Mongo DB</li>
+											<li>Express</li>
+											<li>Handlebars</li>
+											<li>Bootstrap</li>
+											<li>API calls</li>
+											<li>Heroku</li>
+											<li>Materialize</li>
+											<li>Sequelize</li>
+										
+
+
+
+<!-- <div class="Work">	
 				<img id="Portfolio_images" src="assets/covers/planetvenn.gif">
 				<a href="https://morning-hamlet-93020.herokuapp.com/">
 					<div class="title">Planet Venn</div>
@@ -140,35 +502,4 @@
 				<a href="https://drive.google.com/open?id=0B99Fu0owdBT7dVRGV2FCMFZPTzg">
 					<div class="title">Flashcard Generator</div>
 				</a>	
-			</div>
-
-			</section>
-		</div> 
-
-		<!-- This is for the Connect With Me section on the right side of the main body -->
-		<div class="col-sm-3">
-			<section id="Connect_With_Me">
-				<h3>Connect With Me</h3>
-				
-				<a href="https://github.com/stuartschafer">
-					<img id="githubicon">
-				</a>
-
-				<a href="https://www.linkedin.com/in/stuart-schafer/">
-					<img id="linkedinicon">
-				</a>
-
-				<a href="http://stackoverflow.com/users/7389235/stuart-schafer">
-					<img id="stackoverflowicon">
-				</a>
-			</section>
-		</div>
-
-	<!-- The footer part at the bottom -->
-	<div class="row">
-		<div class="col-sm-12">
-			<footer class="footer">@ Copyright 2017 Stuart Schafer</footer>
-		</div>
-	</div>
-</body>
-</html>
+			</div> -->
