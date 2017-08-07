@@ -11,14 +11,11 @@
 		<!-- This is the Twitter Bootstrap reference -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		
-		
 		<!-- This is the Bootswatch reference for the Cerulean theme -->
 		<link rel="stylesheet" href="https://bootswatch.com/cerulean/bootstrap.css">
 
 		<!-- This link is so the text will respond correctly on browsers -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-		
 
 		<!-- This references the CSS stylesheet -->
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -26,30 +23,28 @@
 		<!-- This referneces the CSS stylesheet for the items that have hover to them -->
 		<link rel="stylesheet" type="text/css" href="assets/css/hover.css">
 
-		
-
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
 	</head>
 <body>
 
-	<!-- This is for white blank part at the top of the page (no wallpaper) -->
-   <section id="blankspaceattop">
-	    <div class="row">
-			<div class="col-sm-3">
-		  		<h1>Stuart Schafer</h1>
-		  	</div>
-
-		  	<div class="col-sm-3 col-sm-offset-2"></div>
-
-			<!-- This is for the navigation tabs at the top right of the page -->
-			<ul class="nav nav-tabs">
-				<li role="presentation"><a  id="inactivelink"href="index.html">About</a></li>
-				<li role="presentation" class="active"><a href="portfolio.html">Portfolio</a></li>
-				<li role="presentation"><a  id="inactivelink"href="contact.html">Contact</a></li>
-				<li role="presentation"><a id="inactivelink"href="">Recommendations</a></li>
-			</ul>
-		</div>
+	<!-- This is the navbar at the top of the page -->
+   	<section id="blankspaceattop">
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<h1><a id="namelink" href="index.html">Stuart Schafer</a></h1>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li role="presentation"><a href="index.html">About</a></li>
+						<li role="presentation" class="active"><a href="portfolio.html">Portfolio</a></li>
+						<li role="presentation"><a href="contact.html">Contact</a></li>
+						<li role="presentation"><a href="recc.html">Recommendations</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 	</section>
 
 <!-- This is for the Portfolio in the main body section -->
@@ -57,11 +52,6 @@
 	<div class="row">
 		<div class="col-sm-12">
 			<section id="Inside_Portfolio_Section">
-				<h2>Portfolio</h2>
-
-
-
-
 
 <!-- PLANET VENN CARD -->
 					<div class="card-container">
@@ -248,7 +238,7 @@
 										<h3 class="name">SAFE KEEPER</h3>
 										<p class="profession">Full Stack App</p>
 										<p class="text-center">Keep track of all of your valuables. Know what you have at all times. Add, update, and delete inforamtion as needed.</p>
-										<img id="Portfolio_images" src="assets/covers/safekeeper.png">
+										<img id="Portfolio_images" src="assets/covers/safekeeper.gif">
 									</div>
 								</div>
 							</div>
@@ -291,10 +281,10 @@
 							<div class="front">
 								<div class="content">
 									<div class="main">
-										<h3 class="name">CRYSTAL COLLECTOR</h3>
+										<h3 class="name">CRYSTAL CAT COLLECTOR</h3>
 										<p class="profession">Front-End App</p>
 										<p class="text-center">Challenge yourself in this addictive and difficult memory game.</p>
-										<img id="Portfolio_images" src="assets/covers/crystal.png">
+										<img id="Portfolio_images" src="assets/covers/crystal.gif">
 									</div>
 								</div>
 							</div>
@@ -314,8 +304,8 @@
 									</div>
 									<h5 class="motto">How good is your memory?  How about simple math?  Find out by playing through all 8 levels.  Each level ramps up the difficulty, and levels 5-8 will really test your skills and are only reccomended for advanced players.  The more you play, the better you will get.  Keep trying, you can do it!</h5>
 									<div class="text-center">
-										<button class="btn btn-success" onclick="window.open('https://stuartschafer.github.io/Crystal-Collector/')" role="button">DEMO</button>
-										<button class="btn btn-warning" onclick="window.open('https://github.com/stuartschafer/Crystal-Collector')" role="button">Source code</button>
+										<button class="btn btn-success" onclick="window.open('https://stuartschafer.github.io/CrystalCat-Collector/')" role="button">DEMO</button>
+										<button class="btn btn-warning" onclick="window.open('https://github.com/stuartschafer/CrystalCat-Collector')" role="button">Source code</button>
 									</div>
 								</div>
 							</div>
@@ -331,7 +321,7 @@
 										<h3 class="name">MORTAL KOMBAT RPG GAME</h3>
 										<p class="profession">Front-End App</p>
 										<p class="text-center">Remember Mortal Kombat?  Relive the great fights, sounds, (& great videos) in this fun game.</p>
-										<img id="Portfolio_images" src="assets/covers/rpggame.png">
+										<img id="Portfolio_images" src="assets/covers/rpggame.gif">
 									</div>
 								</div>
 							</div>
@@ -406,7 +396,7 @@
 										<h3 class="name">GIPHY API</h3>
 										<p class="profession">Front-End App</p>
 										<p class="text-center">Select from a list of choices or enter your own to see several GIPHY images and make them dance!</p>
-										<img id="Portfolio_images" src="assets/covers/giphy.png">
+										<img id="Portfolio_images" src="assets/covers/giphy.gif">
 									</div>
 								</div>
 							</div>
@@ -482,7 +472,7 @@
 										<h3 class="name">MARVEL HANGMAN</h3>
 										<p class="profession">Front-End App</p>
 										<p class="text-center">How well do you know Marvel's superheroes and villans? Test yourself in this classic hangman game!</p>
-										<img id="Portfolio_images" src="assets/covers/hangman.png">
+										<img id="Portfolio_images" src="assets/covers/hangman.gif">
 									</div>
 								</div>
 							</div>
@@ -500,8 +490,8 @@
 									</div>
 									<h5 class="motto">Going from old-school to current day Marvel characters, see how many of the 41 characters you can remember.  This will keep track of your score and has several sounds and music choices to make playing this all the more fun.</h5>
 									<div class="text-center">
-										<button class="btn btn-success" onclick="window.open('https://stuartschafer.github.io/Hangman-Game/')" role="button">DEMO</button>
-										<button class="btn btn-warning" onclick="window.open('https://github.com/stuartschafer/Hangman-Game')" role="button">Source code</button>
+										<button class="btn btn-success" onclick="window.open('https://github.com/stuartschafer/Marvel-Hangman-Game')" role="button">DEMO</button>
+										<button class="btn btn-warning" onclick="window.open('https://stuartschafer.github.io/Marvel-Hangman-Game/')" role="button">Source code</button>
 									</div>
 								</div>
 							</div>
@@ -553,7 +543,7 @@
 	<div class="row">
 		<div class="col-sm-12">
 			<footer class="footer">
-					@ Copyright 2017 Stuart Schafer
+					&copy Copyright 2017 Stuart Schafer
 					<a href="https://www.linkedin.com/in/stuart-schafer/">
 						<img id="linkedinicon">
 					</a>

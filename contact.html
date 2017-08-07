@@ -23,65 +23,59 @@
 	</head>
 <body>
 
-	<!-- This is for white blank part at the top of the page (no wallpaper) -->
-   <section id="blankspaceattop">
-	    <div class="row">
-			<div class="col-sm-3">
-		  		<h1>Stuart Schafer</h1>
-		  	</div>
-
-		  	<div class="col-sm-3 col-sm-offset-2"></div>
-
-			<!-- This is for the navigation tabs at the top right of the page -->
-			<ul class="nav nav-tabs">
-				<li role="presentation"><a id="inactivelink"href="index.html">About</a></li>
-				<li role="presentation"><a id="inactivelink"href="portfolio.html">Portfolio</a></li>
-				<li role="presentation" class="active"><a href="contact.html">Contact</a></li>
-				<li role="presentation"><a id="inactivelink"href="">Recommendations</a></li>
-			</ul>
-		</div>
+	<!-- This is the navbar at the top of the page -->
+   	<section id="blankspaceattop">
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<h1><a id="namelink" href="index.html">Stuart Schafer</a></h1>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li role="presentation"><a href="index.html">About</a></li>
+						<li role="presentation"><a href="portfolio.html">Portfolio</a></li>
+						<li role="presentation" class="active"><a href="contact.html">Contact</a></li>
+						<li role="presentation"><a href="recc.html">Recommendations</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 	</section>
 
 
 	<!-- This is for the Contact Me (form) in the main body section -->
 	<section id="Contact_Me">
-		<div class="row">
-			<div class="col-sm-1"></div>
+		<div class="col-sm-6 col-sm-offset-3">
+			<h3>Send me an email</h3>
+			<form enctype="text" method="GET" action="mailto:{stuart_schafer@hotmail.com}?subject=Subject&body=Body">
+				<div class="form-group">
+					<label for="text">Name</label>
+					<input type="text" class="form-control" placeholder="Your name">
+				</div>
+				  <div class="form-group">
+					<label for="exampleSelect1">What is this in regards to?</label>
+					<select class="form-control" id="exampleSelect1" name="subject" value="Subject">
+						<option value="Job&nbsp;opportunity">Job opportunity</option>
+						<option value="Question&nbsp;about&nbsp;yourself&nbsp;or&nbsp;your&nbsp;code">Question about yourself or your code</option>
+						<option value="General&nbsp;Question">General Question</option>
+						<option value="">No subject</option>
+					</select>
+				</div>
 
-			<div class="col-sm-6">
-				<section id="Inside_Section">
-					<h2>Contact Me</h2>
-					
-					<form>
-						<div class="form-group">
-							<label>Name</label>
-					    	<input class="form-control" id="Name_Input" placeholder="John Smith">
-					  	</div>
-
-
-					  	<div class="form-group">
-							<label>Email</label>
-					    	<input type="email" class="form-control" id="Email_Input" placeholder="example@gmail.com">
-					  	</div>
-						
-						<textarea class="form-control" rows="8"></textarea>
-						
-						<br>
-
-						<button type="submit" class="btn-primary"><a href="mailto:stuart_schafer@hotmail.com">Submit</a></button>
-					
-					</form>
-					
-				</section>
-			</div>
-			
-			<div class="col-sm-1"></div>
+				<div class="form-group">
+					<label for="exampleTextarea">What would you like to say?</label>
+					<textarea class="form-control" id="exampleTextarea" name="body" value="Body" rows="4" placeholder="I'd like to speak with you about an exciting job opportunity."></textarea> 
+				</div>
+				<button type="submit" class="btn btn-primary" name="submit" value="Submit">Submit</button>
+			</form>
+		</div>
+	</section>
 
 	<!-- The footer part at the bottom -->
 	<div class="row">
 		<div class="col-sm-12">
 			<footer class="footer">
-					@ Copyright 2017 Stuart Schafer
+					&copy Copyright 2017 Stuart Schafer
 					<a href="https://www.linkedin.com/in/stuart-schafer/">
 						<img id="linkedinicon">
 					</a>

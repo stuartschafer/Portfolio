@@ -1,24 +1,20 @@
 header:hover {
 	color: #4aaaa5;
 	background-color: #ffffff;
-	border: 2px solid #4aaaa5;
+	/* border: 2px solid #4aaaa5; */
 	padding: 18px;
 }
 
-a:visited {
-	color: #006485;
-}
-
 a:link {
-	color: #006485;
+	color: #3aa6e6;
 }
 
 a:hover {
-	color: turquoise;
+	color: #5FBDF4;
 }
 
 a:active {
-	color: turquoise;
+	color: #5FBDF4;
 }
 
 #githubicon:hover {
