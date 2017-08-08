@@ -55,7 +55,7 @@ body {
     backface-visibility: hidden;
 	position: absolute;
 	top: 0;
-	left: -25px;
+	left: -20px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
 }
 
@@ -97,7 +97,7 @@ body {
 	width: 250px;
 	height: 380px;
     border-radius: 4px;
-    margin: 27px;
+    margin: 20px;
     margin-top: 0px;
 
 }
