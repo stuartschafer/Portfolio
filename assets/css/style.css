@@ -46,25 +46,6 @@ h2 {
 	margin-bottom: 20px;
 }
 
-#MyPic {
-	float: left;
-	background: url("../images/profilepic5.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 400px;
-	height: 267px;
-	margin-right: 10px;
-}
-
-#MyPic:hover { 
-	float: left;
-	background: url("../images/profilepic6.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 400px;
-	height: 267px;
-}
-
 p { 
 	color: #3aa6e6;
 	font-size: 16px;
@@ -307,3 +288,6 @@ a:hover {
   #mobile { display: none; }   /* hide it elsewhere */
 }
 
+#hover {
+	color: grey;
+}
