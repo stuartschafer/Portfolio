@@ -8,7 +8,7 @@ This is a detailed and complete experience about **who I am**, **what I've done*
 ![](assets/images/aboutme.png)
 The About me page tells a story of how I got to be where I am, and some insights to who exactly I am.
 
-## Portfolio (A collection of projects created) ##
+## Portfolio (A collection of projects I have created) ##
 ![](assets/images/portfolio.png)
 My Portfolio page shows several applications that I've built from **Front-End** only (client side), **Back-End** only (server side), to **Full Stack** (both server and client).
 2 of these projects I was part of a team (Venn Planet and SafeKeeper), and the rest I created by myself.
