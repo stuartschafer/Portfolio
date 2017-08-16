@@ -5,6 +5,21 @@ header:hover {
 	padding: 18px;
 }
 
+h1 {
+	text-align: center;
+	margin: 0px;
+	padding: 5px;
+	text-shadow: 0 0 5px #3aa6e6, 0 0 10px #3aa6e6, 0 0 15px #3aa6e6, 0 0 20px #3aa6e6, 0 0 35px #3aa6e6, 0 0 40px #3aa6e6, 0 0 50px #3aa6e6, 0 0 75px #3aa6e6 !important; 
+}
+
+h1:hover {
+	opacity: 1;
+	cursor: pointer;
+	text-align: center;
+	margin: 0px;
+	padding: 5px;
+}
+
 #MyPic {
 	float: left;
 	background: url("../images/profilepic5.jpg");
