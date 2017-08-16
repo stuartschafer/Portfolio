@@ -4,7 +4,7 @@
 
 		<!-- This is the title that shows at the top of the webpage -->
 		<title>My Portfolio</title>
-		
+
 		<!-- This is the Twitter Bootstrap reference -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -22,7 +22,7 @@
 
 	</head>
 <body>
-
+	
 	<!-- This is the navbar at the top of the page -->
    	<section id="blankspaceattop">
 		<nav class="navbar navbar-default">
@@ -34,8 +34,8 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li role="presentation"><a href="index.html">About</a></li>
 						<li role="presentation"><a href="portfolio.html">Portfolio</a></li>
-						<li role="presentation" class="active"><a href="contact.html">Contact</a></li>
-						<li role="presentation"><a href="resume.html">Resume</a></li>
+						<li role="presentation"><a href="contact.html">Contact</a></li>
+						<li role="presentation" class="active"><a href="resume.html">Resume</a></li>
 						<!-- <li role="presentation"><a href="recc.html">Recommendations</a></li> -->
 					</ul>
 				</div>
@@ -43,35 +43,19 @@
 		</nav>
 	</section>
 
-
-	<!-- This is for the Contact Me (form) in the main body section -->
-	<section id="Contact_Me">
-		<div class="col-sm-6 col-sm-offset-3">
-			<h3>Send me an email (stuart_schafer@hotmail.com)</h3>
-			<form enctype="text/plain" method="GET" action="mailto:{stuart_schafer@hotmail.com}?subject=Subject&body=Body">
-				<div class="form-group">
-					<label for="text">Name</label>
-					<input type="text/plain" class="form-control" placeholder="Your name">
-				</div>
-				  <div class="form-group">
-					<label for="exampleSelect1">What is this in regards to?</label>
-					<select class="form-control" id="exampleSelect1" name="subject" value="Subject">
-						<option value="Job&nbsp;opportunity">Job opportunity</option>
-						<option value="Question&nbsp;about&nbsp;yourself&nbsp;or&nbsp;your&nbsp;code">Question about yourself or your code</option>
-						<option value="General&nbsp;Question">General Question</option>
-						<option value="">No subject</option>
-					</select>
-				</div>
-
-				<div class="form-group">
-					<label for="exampleTextarea">What would you like to say?</label>
-					<textarea class="form-control" id="exampleTextarea" name="body" value="Body" rows="4" placeholder="I'd like to speak with you about an exciting job opportunity."></textarea> 
-				</div>
-				<button type="submit" class="btn btn-primary" name="submit" value="Submit">Submit</button>
-			</form>
-		</div>
-	</section>
-
+	<!-- This is for the About Me part (my bio & pic) in the main body section -->
+    <section id="Resume">
+		<div class="row">
+			<div class="col-sm-10 col-sm-offset-6">
+				<section id="Inside_Section">
+					<div class="text-center" id="titleresumetext">Click anywhere on the resume to download it as a pdf</div>
+					<a href="assets/images/resume.pdf" download>
+						<img id="resumepic" src="assets/images/resume.jpg">
+					</a>
+				</section>
+			</div>
+				
+	
 	<!-- The footer part at the bottom -->
 	<div class="row">
 		<div class="col-sm-12">

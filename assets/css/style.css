@@ -41,7 +41,6 @@ h2 {
 
 #Inside_Section, #Connect_With_Me {
 	background-color: #B6E3FD;
-	border-bottom: 3px solid #cccccc;
 	padding: 20px;
 	margin-bottom: 20px;
 }
@@ -121,8 +120,13 @@ a, a:link {
 	text-decoration: underline;
 }
 
-#About_Me, #Contact_Me, #Portfolio_Section {
+#About_Me, #Contact_Me, #Portfolio_Section, #Resume {
 	margin: 30px;
+}
+
+#Resume {
+	width: 560px;
+	border-style: none;
 }
 
 #Inside_Portfolio_Section {
@@ -170,6 +174,10 @@ a, a:link {
 .text-center {
 	color: #B6E3FD;
 	font-size: 14px;
+}
+
+#titleresumetext {
+	color: #3aa6e6;
 }
 
 li {
@@ -290,4 +298,9 @@ a:hover {
 
 #hover {
 	color: grey;
+}
+
+#resumepic {
+	height: 545px;
+	width: 421px;
 }
