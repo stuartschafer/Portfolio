@@ -52,7 +52,8 @@ a:active {
 }
 
 #githubicon:hover {
-	background: url("../images/githubicon2.png");
+	background: url("../images/githubicon4.png");
+	background-color: black;
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 30px;
@@ -60,7 +61,7 @@ a:active {
 }
 
 #linkedinicon:hover {
-	background: url("../images/linkedinicon2.png");
+	background: url("../images/linkedinicon3.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 30px;
@@ -69,6 +70,7 @@ a:active {
 
 #stackoverflowicon:hover {
 	background: url("../images/stackoverflowicon2.png");
+	background-color: white;
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 30px;
