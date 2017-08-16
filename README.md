@@ -1,4 +1,4 @@
-# PORTFOLIO #
+# Stuart Schafer's Portfolio #
 
 To visit my site, please click on https://stuartschafer.github.io/Portfolio/
 
