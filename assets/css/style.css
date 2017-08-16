@@ -125,7 +125,7 @@ a, a:link {
 }
 
 #Resume {
-	width: 560px;
+	width: 45%;
 	border-style: none;
 }
 
@@ -301,6 +301,5 @@ a:hover {
 }
 
 #resumepic {
-	height: 545px;
-	width: 421px;
+	width: 100%;
 }
