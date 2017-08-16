@@ -19,6 +19,6 @@ The cards on the portfolio page are interactive.  Hover over a card to see more 
 I am a versitlie team player and can do whatever is needed.  Working on a team showed me that I can work on any/all aspects of a project as well as delegate to others what needs to be done.  I happily coded what was needed when I was assigned duties, and appointed chores to others when I saw fit.
 
 Please let me know any feedback you have, contact me to discuss future endeavors, or just drop me a note to say "Hey!".  I love to chat with others, especially about code.
-Contact me @ stuart_schafer@hotmail.com or on my [contact page](https://stuartschafer.github.io/contact/).
+Contact me @ stuart_schafer@hotmail.com or on my [contact page](https://stuartschafer.github.io/Portfolio/contact.html).
 
 **THANK YOU** for taking time to learn more about me and what I can do.
