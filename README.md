@@ -2,7 +2,7 @@
 
 To visit my site, please click on https://stuartschafer.github.io/Portfolio/
 
-This is a detailed and complete experience about **who I am**, **what I've done**, and how to **get a hold of me**.  P.S. my resume can be viewed [here](assets/images/resume.pdf).
+This is a detailed and complete experience about **who I am**, **what I've done**, and how to **get a hold of me**.  AND, my resume can be viewed [here](assets/images/resume.pdf).
 
 ## About Me (Who am I?) ##
 ![](assets/images/aboutme.png)
