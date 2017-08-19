@@ -9,7 +9,6 @@ body {
 	background-color: white;
 }
 
-
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
 	background-color: lightskyblue;
 	height: 53px;
@@ -25,53 +24,6 @@ body {
 p { 
 	color: #3aa6e6;
 	font-size: 16px;
-}
-
-#githubicon {
-	background: url("../images/githubicon3.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	text-decoration: none;
-	width: 30px;
-	height: 30px;
-}
-
-#githubicon:hover { 
-	background: url("../images/githubicon2.png");
-	background-size: contain;
-	width: 30px;
-	height: 30px;
-}
-
-#linkedinicon {
-	background: url("../images/linkedinicon.png");
-	background-size: contain;
-	margin: 10px;
-	width: 30px;
-	height: 30px;
-}
-
-#linkedinicon:hover { 
-	background: url("../images/linkedinicon2.png");
-	background-size: contain;
-	margin: 10px;
-	width: 30px;
-	height: 30px;
-}
-
-#stackoverflowicon {
-	background: url("../images/stackoverflowicon.png");
-	background-size: contain;
-	margin-left: 10px;
-	width: 30px;
-	height: 30px;
-}
-
-#stackoverflowicon:hover {
-	background: url("../images/stackoverflowicon2.png");
-	background-size: contain;
-	width: 30px;
-	height: 30px;
 }
 
 footer {

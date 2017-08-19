@@ -39,6 +39,53 @@ h1:hover {
 	height: 267px;
 }
 
+#githubicon {
+	background: url("../images/githubicon3.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-decoration: none;
+	width: 30px;
+	height: 30px;
+}
+
+#githubicon:hover { 
+	background: url("../images/githubicon2.png");
+	background-size: contain;
+	width: 30px;
+	height: 30px;
+}
+
+#linkedinicon {
+	background: url("../images/linkedinicon.png");
+	background-size: contain;
+	margin: 10px;
+	width: 30px;
+	height: 30px;
+}
+
+#linkedinicon:hover { 
+	background: url("../images/linkedinicon2.png");
+	background-size: contain;
+	margin: 10px;
+	width: 30px;
+	height: 30px;
+}
+
+#stackoverflowicon {
+	background: url("../images/stackoverflowicon.png");
+	background-size: contain;
+	margin-left: 10px;
+	width: 30px;
+	height: 30px;
+}
+
+#stackoverflowicon:hover {
+	background: url("../images/stackoverflowicon2.png");
+	background-size: contain;
+	width: 30px;
+	height: 30px;
+}
+
 a:link {
 	color: #3aa6e6;
 }
@@ -88,4 +135,3 @@ a:active {
 	background-color: #ffffff;
 	color: #4aaaa5;
 }
-
