@@ -44,12 +44,18 @@
 	<!-- This is for the Contact Me (form) in the main body section -->
 	<section id="Contact_Me">
 		<div class="col-sm-6 col-sm-offset-3">
+				<h3>Send me a Text Message (will respond faster)</h3>
+			<button id="smslink" class="btn btn-primary" onclick="sendtextnomsg()">Send me an SMS</button>
+		</div>
+
+		<div class="col-sm-6 col-sm-offset-3">
 			<h3>Send me an email (stuart_schafer@hotmail.com)</h3>
 			<form enctype="text/plain" method="GET" action="mailto:{stuart_schafer@hotmail.com}?subject=Subject&body=Body">
 				<div class="form-group">
 					<label for="text">Name</label>
 					<input type="text/plain" class="form-control" placeholder="Your name">
 				</div>
+				
 				  <div class="form-group">
 					<label for="exampleSelect1">What is this in regards to?</label>
 					<select class="form-control" id="exampleSelect1" name="subject" value="Subject">
@@ -66,7 +72,9 @@
 					<textarea class="form-control" id="exampleTextarea" name="body" value="Body" rows="4" placeholder="I'd like to speak with you about an exciting job opportunity."></textarea> 
 				</div>
 				<button type="submit" class="btn btn-primary" name="submit" value="Submit">Submit</button>
+				
 			</form>
+			
 		</div>
 	</section>
 
@@ -90,4 +98,17 @@
 
 </body>
 
+<!-- Link to the javascript -->
+<script type="text/javascript" src="assets/js/contact.js"></script>
+
 </html>
+
+
+
+
+
+
+
+
+
+
