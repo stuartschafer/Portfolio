@@ -46,18 +46,18 @@ h1:hover {
 }
 
 #linkedinicon {
-	background: url("../images/linkedinicon.png");
+	background: url("../images/linkedinicon3.png");
 	background-size: contain;
 	margin: 5px;
 }
 
 #githubicon {
-	background: url("../images/githubicon3.png");
+	background: url("../images/githubicon4.png");
 	background-size: contain;
 }
 
 #stackoverflowicon {
-	background: url("../images/stackoverflowicon.png");
+	background: url("../images/stackoverflowicon2.png");
 	background-size: contain;
 	margin-left: 5px;
 }
