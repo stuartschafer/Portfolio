@@ -6,6 +6,7 @@ body {
 
 #blankspaceattop {
 	background-color: white;
+	margin-bottom: 5%;
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
