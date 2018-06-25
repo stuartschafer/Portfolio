@@ -30,7 +30,7 @@ footer {
 	border-top: 5px solid lightskyblue;
 	background-color: #666666;
 	color: darkgrey;
-	/* padding: 20px; */
+	height: 54px !important;
 	position: fixed;
 	bottom: 0;
 	left: 0;
